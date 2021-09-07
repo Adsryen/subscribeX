@@ -5,149 +5,109 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _848 |24.82Mb, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
-  - {name: _848 |24.82Mb 2, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
-  - {name: _851 |24.82Mb, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
+  - {name: 🇺🇸 US_10263 |11.86Mb, server: tw.v2jx.site, port: 80, type: vmess, uuid: bc27ae5c-2694-4241-af15-5949da653c33, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: tw.v2jx.site}}
+  - {name: 🇯🇵 JP_6507 |26.67Mb, server: v2-rbb-v5.cl123.xyz, port: 80, type: vmess, uuid: 6d3faf56-93b6-33ca-a57d-673bb6ab696f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: v2-rbb-v5.cl123.xyz}}
+  - {name: 🇯🇵 JP_6502 |26.67Mb, server: v2-rbb-v5.cl123.xyz, port: 80, type: vmess, uuid: 6d3faf56-93b6-33ca-a57d-673bb6ab696f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: v2-rbb-v5.cl123.xyz}}
+  - {name: 🇯🇵 JP_6502 |26.67Mb 2, server: v2-rbb-v5.cl123.xyz, port: 80, type: vmess, uuid: 6d3faf56-93b6-33ca-a57d-673bb6ab696f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: v2-rbb-v5.cl123.xyz}}
   - {name: 🇭🇰 HK_5002 |25.32Mb, server: hkaz1.biteb.club, port: 54489, type: vmess, uuid: 7b372dfe-22cd-3947-9cd6-b0e55fc59d4a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: index, ws-headers: {Host: hkaz1.biteb.club}}
-  - {name: _1086 |72.73Mb, server: 107.167.9.125, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: _856 |24.82Mb, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
-  - {name: _1056 |12.41Mb, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
-  - {name: _1056 |12.41Mb 2, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
-  - {name: _1093 |71.88Mb, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
-  - {name: _817 |73.83Mb, server: 107.167.9.125, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: _1063 |71.88Mb, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
-  - {name: _851 |24.82Mb 2, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
-  - {name: _1063 |71.88Mb 2, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
+  - {name: 🇭🇰 HK_5002 |25.32Mb 2, server: hkaz1.biteb.club, port: 54489, type: vmess, uuid: 7b372dfe-22cd-3947-9cd6-b0e55fc59d4a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: index, ws-headers: {Host: hkaz1.biteb.club}}
+  - {name: 🇭🇰 HK_5002 |25.32Mb 3, server: hkaz1.biteb.club, port: 54489, type: vmess, uuid: 7b372dfe-22cd-3947-9cd6-b0e55fc59d4a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: index, ws-headers: {Host: hkaz1.biteb.club}}
+  - {name: 🇭🇰 HK_5002 |25.32Mb 4, server: hkaz1.biteb.club, port: 54489, type: vmess, uuid: 7b372dfe-22cd-3947-9cd6-b0e55fc59d4a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: index, ws-headers: {Host: hkaz1.biteb.club}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - _848 |24.82Mb
-      - _848 |24.82Mb 2
-      - _851 |24.82Mb
+      - 🇺🇸 US_10263 |11.86Mb
+      - 🇯🇵 JP_6507 |26.67Mb
+      - 🇯🇵 JP_6502 |26.67Mb
+      - 🇯🇵 JP_6502 |26.67Mb 2
       - 🇭🇰 HK_5002 |25.32Mb
-      - _1086 |72.73Mb
-      - _856 |24.82Mb
-      - _1056 |12.41Mb
-      - _1056 |12.41Mb 2
-      - _1093 |71.88Mb
-      - _817 |73.83Mb
-      - _1063 |71.88Mb
-      - _851 |24.82Mb 2
-      - _1063 |71.88Mb 2
+      - 🇭🇰 HK_5002 |25.32Mb 2
+      - 🇭🇰 HK_5002 |25.32Mb 3
+      - 🇭🇰 HK_5002 |25.32Mb 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - _848 |24.82Mb
-      - _848 |24.82Mb 2
-      - _851 |24.82Mb
+      - 🇺🇸 US_10263 |11.86Mb
+      - 🇯🇵 JP_6507 |26.67Mb
+      - 🇯🇵 JP_6502 |26.67Mb
+      - 🇯🇵 JP_6502 |26.67Mb 2
       - 🇭🇰 HK_5002 |25.32Mb
-      - _1086 |72.73Mb
-      - _856 |24.82Mb
-      - _1056 |12.41Mb
-      - _1056 |12.41Mb 2
-      - _1093 |71.88Mb
-      - _817 |73.83Mb
-      - _1063 |71.88Mb
-      - _851 |24.82Mb 2
-      - _1063 |71.88Mb 2
+      - 🇭🇰 HK_5002 |25.32Mb 2
+      - 🇭🇰 HK_5002 |25.32Mb 3
+      - 🇭🇰 HK_5002 |25.32Mb 4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _848 |24.82Mb
-      - _848 |24.82Mb 2
-      - _851 |24.82Mb
+      - 🇺🇸 US_10263 |11.86Mb
+      - 🇯🇵 JP_6507 |26.67Mb
+      - 🇯🇵 JP_6502 |26.67Mb
+      - 🇯🇵 JP_6502 |26.67Mb 2
       - 🇭🇰 HK_5002 |25.32Mb
-      - _1086 |72.73Mb
-      - _856 |24.82Mb
-      - _1056 |12.41Mb
-      - _1056 |12.41Mb 2
-      - _1093 |71.88Mb
-      - _817 |73.83Mb
-      - _1063 |71.88Mb
-      - _851 |24.82Mb 2
-      - _1063 |71.88Mb 2
+      - 🇭🇰 HK_5002 |25.32Mb 2
+      - 🇭🇰 HK_5002 |25.32Mb 3
+      - 🇭🇰 HK_5002 |25.32Mb 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _848 |24.82Mb
-      - _848 |24.82Mb 2
-      - _851 |24.82Mb
+      - 🇺🇸 US_10263 |11.86Mb
+      - 🇯🇵 JP_6507 |26.67Mb
+      - 🇯🇵 JP_6502 |26.67Mb
+      - 🇯🇵 JP_6502 |26.67Mb 2
       - 🇭🇰 HK_5002 |25.32Mb
-      - _1086 |72.73Mb
-      - _856 |24.82Mb
-      - _1056 |12.41Mb
-      - _1056 |12.41Mb 2
-      - _1093 |71.88Mb
-      - _817 |73.83Mb
-      - _1063 |71.88Mb
-      - _851 |24.82Mb 2
-      - _1063 |71.88Mb 2
+      - 🇭🇰 HK_5002 |25.32Mb 2
+      - 🇭🇰 HK_5002 |25.32Mb 3
+      - 🇭🇰 HK_5002 |25.32Mb 4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - _848 |24.82Mb
-      - _848 |24.82Mb 2
-      - _851 |24.82Mb
+      - 🇺🇸 US_10263 |11.86Mb
+      - 🇯🇵 JP_6507 |26.67Mb
+      - 🇯🇵 JP_6502 |26.67Mb
+      - 🇯🇵 JP_6502 |26.67Mb 2
       - 🇭🇰 HK_5002 |25.32Mb
-      - _1086 |72.73Mb
-      - _856 |24.82Mb
-      - _1056 |12.41Mb
-      - _1056 |12.41Mb 2
-      - _1093 |71.88Mb
-      - _817 |73.83Mb
-      - _1063 |71.88Mb
-      - _851 |24.82Mb 2
-      - _1063 |71.88Mb 2
+      - 🇭🇰 HK_5002 |25.32Mb 2
+      - 🇭🇰 HK_5002 |25.32Mb 3
+      - 🇭🇰 HK_5002 |25.32Mb 4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _848 |24.82Mb
-      - _848 |24.82Mb 2
-      - _851 |24.82Mb
+      - 🇺🇸 US_10263 |11.86Mb
+      - 🇯🇵 JP_6507 |26.67Mb
+      - 🇯🇵 JP_6502 |26.67Mb
+      - 🇯🇵 JP_6502 |26.67Mb 2
       - 🇭🇰 HK_5002 |25.32Mb
-      - _1086 |72.73Mb
-      - _856 |24.82Mb
-      - _1056 |12.41Mb
-      - _1056 |12.41Mb 2
-      - _1093 |71.88Mb
-      - _817 |73.83Mb
-      - _1063 |71.88Mb
-      - _851 |24.82Mb 2
-      - _1063 |71.88Mb 2
+      - 🇭🇰 HK_5002 |25.32Mb 2
+      - 🇭🇰 HK_5002 |25.32Mb 3
+      - 🇭🇰 HK_5002 |25.32Mb 4
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _848 |24.82Mb
-      - _848 |24.82Mb 2
-      - _851 |24.82Mb
+      - 🇺🇸 US_10263 |11.86Mb
+      - 🇯🇵 JP_6507 |26.67Mb
+      - 🇯🇵 JP_6502 |26.67Mb
+      - 🇯🇵 JP_6502 |26.67Mb 2
       - 🇭🇰 HK_5002 |25.32Mb
-      - _1086 |72.73Mb
-      - _856 |24.82Mb
-      - _1056 |12.41Mb
-      - _1056 |12.41Mb 2
-      - _1093 |71.88Mb
-      - _817 |73.83Mb
-      - _1063 |71.88Mb
-      - _851 |24.82Mb 2
-      - _1063 |71.88Mb 2
+      - 🇭🇰 HK_5002 |25.32Mb 2
+      - 🇭🇰 HK_5002 |25.32Mb 3
+      - 🇭🇰 HK_5002 |25.32Mb 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -170,19 +130,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _848 |24.82Mb
-      - _848 |24.82Mb 2
-      - _851 |24.82Mb
+      - 🇺🇸 US_10263 |11.86Mb
+      - 🇯🇵 JP_6507 |26.67Mb
+      - 🇯🇵 JP_6502 |26.67Mb
+      - 🇯🇵 JP_6502 |26.67Mb 2
       - 🇭🇰 HK_5002 |25.32Mb
-      - _1086 |72.73Mb
-      - _856 |24.82Mb
-      - _1056 |12.41Mb
-      - _1056 |12.41Mb 2
-      - _1093 |71.88Mb
-      - _817 |73.83Mb
-      - _1063 |71.88Mb
-      - _851 |24.82Mb 2
-      - _1063 |71.88Mb 2
+      - 🇭🇰 HK_5002 |25.32Mb 2
+      - 🇭🇰 HK_5002 |25.32Mb 3
+      - 🇭🇰 HK_5002 |25.32Mb 4
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

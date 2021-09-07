@@ -5,205 +5,101 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _402 |112.97Mb, server: 199.10.64.133, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: _409 |112.97Mb, server: 199.10.64.133, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 US_15759 |40.99Mb, server: uss222.liuwei01.tk, port: 443, type: vmess, uuid: 1b93051f-c9ad-4908-874e-ccb5e8da27ef, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /liuwei, ws-headers: {Host: uss222.liuwei01.tk}}
-  - {name: 🇺🇸 US_15360 |44.88Mb, server: v7.coding996.com, port: 443, type: vmess, uuid: 3095ccd7-cb4d-4229-98d3-fde96aa37906, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /baidu, ws-headers: {Host: v7.coding996.com}}
-  - {name: _1093 |72.73Mb, server: 107.167.9.125, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: _842 |67.98Mb, server: 107.167.9.125, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: _1073 |73.33Mb, server: 107.167.9.125, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: _1096 |72.73Mb, server: 107.167.9.125, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: _826 |71.50Mb, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
-  - {name: _837 |71.50Mb, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
-  - {name: _846 |71.50Mb, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
-  - {name: _925 |57.68Mb, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
-  - {name: _856 |24.82Mb, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
-  - {name: _846 |71.50Mb 2, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
-  - {name: _826 |71.50Mb 2, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
-  - {name: _925 |57.68Mb 2, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
-  - {name: _812 |73.83Mb, server: 107.167.9.125, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: _832 |67.98Mb, server: 107.167.9.125, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: _812 |73.83Mb 2, server: 107.167.9.125, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: _911 |63.89Mb, server: 107.167.9.125, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: _829 |50.36Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: _1096 |59.76Mb, server: www.92726054.xyz, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}}
+  - {name: _1057 |12.41Mb, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
+  - {name: _1062 |73.56Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: _1057 |12.41Mb 2, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
+  - {name: _1063 |71.88Mb, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
+  - {name: _1057 |12.41Mb 3, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - _402 |112.97Mb
-      - _409 |112.97Mb
-      - 🇺🇸 US_15759 |40.99Mb
-      - 🇺🇸 US_15360 |44.88Mb
-      - _1093 |72.73Mb
-      - _842 |67.98Mb
-      - _1073 |73.33Mb
-      - _1096 |72.73Mb
-      - _826 |71.50Mb
-      - _837 |71.50Mb
-      - _846 |71.50Mb
-      - _925 |57.68Mb
-      - _856 |24.82Mb
-      - _846 |71.50Mb 2
-      - _826 |71.50Mb 2
-      - _925 |57.68Mb 2
-      - _812 |73.83Mb
-      - _832 |67.98Mb
-      - _812 |73.83Mb 2
-      - _911 |63.89Mb
+      - _829 |50.36Mb
+      - _1096 |59.76Mb
+      - _1057 |12.41Mb
+      - _1062 |73.56Mb
+      - _1057 |12.41Mb 2
+      - _1063 |71.88Mb
+      - _1057 |12.41Mb 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - _402 |112.97Mb
-      - _409 |112.97Mb
-      - 🇺🇸 US_15759 |40.99Mb
-      - 🇺🇸 US_15360 |44.88Mb
-      - _1093 |72.73Mb
-      - _842 |67.98Mb
-      - _1073 |73.33Mb
-      - _1096 |72.73Mb
-      - _826 |71.50Mb
-      - _837 |71.50Mb
-      - _846 |71.50Mb
-      - _925 |57.68Mb
-      - _856 |24.82Mb
-      - _846 |71.50Mb 2
-      - _826 |71.50Mb 2
-      - _925 |57.68Mb 2
-      - _812 |73.83Mb
-      - _832 |67.98Mb
-      - _812 |73.83Mb 2
-      - _911 |63.89Mb
+      - _829 |50.36Mb
+      - _1096 |59.76Mb
+      - _1057 |12.41Mb
+      - _1062 |73.56Mb
+      - _1057 |12.41Mb 2
+      - _1063 |71.88Mb
+      - _1057 |12.41Mb 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _402 |112.97Mb
-      - _409 |112.97Mb
-      - 🇺🇸 US_15759 |40.99Mb
-      - 🇺🇸 US_15360 |44.88Mb
-      - _1093 |72.73Mb
-      - _842 |67.98Mb
-      - _1073 |73.33Mb
-      - _1096 |72.73Mb
-      - _826 |71.50Mb
-      - _837 |71.50Mb
-      - _846 |71.50Mb
-      - _925 |57.68Mb
-      - _856 |24.82Mb
-      - _846 |71.50Mb 2
-      - _826 |71.50Mb 2
-      - _925 |57.68Mb 2
-      - _812 |73.83Mb
-      - _832 |67.98Mb
-      - _812 |73.83Mb 2
-      - _911 |63.89Mb
+      - _829 |50.36Mb
+      - _1096 |59.76Mb
+      - _1057 |12.41Mb
+      - _1062 |73.56Mb
+      - _1057 |12.41Mb 2
+      - _1063 |71.88Mb
+      - _1057 |12.41Mb 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _402 |112.97Mb
-      - _409 |112.97Mb
-      - 🇺🇸 US_15759 |40.99Mb
-      - 🇺🇸 US_15360 |44.88Mb
-      - _1093 |72.73Mb
-      - _842 |67.98Mb
-      - _1073 |73.33Mb
-      - _1096 |72.73Mb
-      - _826 |71.50Mb
-      - _837 |71.50Mb
-      - _846 |71.50Mb
-      - _925 |57.68Mb
-      - _856 |24.82Mb
-      - _846 |71.50Mb 2
-      - _826 |71.50Mb 2
-      - _925 |57.68Mb 2
-      - _812 |73.83Mb
-      - _832 |67.98Mb
-      - _812 |73.83Mb 2
-      - _911 |63.89Mb
+      - _829 |50.36Mb
+      - _1096 |59.76Mb
+      - _1057 |12.41Mb
+      - _1062 |73.56Mb
+      - _1057 |12.41Mb 2
+      - _1063 |71.88Mb
+      - _1057 |12.41Mb 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - _402 |112.97Mb
-      - _409 |112.97Mb
-      - 🇺🇸 US_15759 |40.99Mb
-      - 🇺🇸 US_15360 |44.88Mb
-      - _1093 |72.73Mb
-      - _842 |67.98Mb
-      - _1073 |73.33Mb
-      - _1096 |72.73Mb
-      - _826 |71.50Mb
-      - _837 |71.50Mb
-      - _846 |71.50Mb
-      - _925 |57.68Mb
-      - _856 |24.82Mb
-      - _846 |71.50Mb 2
-      - _826 |71.50Mb 2
-      - _925 |57.68Mb 2
-      - _812 |73.83Mb
-      - _832 |67.98Mb
-      - _812 |73.83Mb 2
-      - _911 |63.89Mb
+      - _829 |50.36Mb
+      - _1096 |59.76Mb
+      - _1057 |12.41Mb
+      - _1062 |73.56Mb
+      - _1057 |12.41Mb 2
+      - _1063 |71.88Mb
+      - _1057 |12.41Mb 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _402 |112.97Mb
-      - _409 |112.97Mb
-      - 🇺🇸 US_15759 |40.99Mb
-      - 🇺🇸 US_15360 |44.88Mb
-      - _1093 |72.73Mb
-      - _842 |67.98Mb
-      - _1073 |73.33Mb
-      - _1096 |72.73Mb
-      - _826 |71.50Mb
-      - _837 |71.50Mb
-      - _846 |71.50Mb
-      - _925 |57.68Mb
-      - _856 |24.82Mb
-      - _846 |71.50Mb 2
-      - _826 |71.50Mb 2
-      - _925 |57.68Mb 2
-      - _812 |73.83Mb
-      - _832 |67.98Mb
-      - _812 |73.83Mb 2
-      - _911 |63.89Mb
+      - _829 |50.36Mb
+      - _1096 |59.76Mb
+      - _1057 |12.41Mb
+      - _1062 |73.56Mb
+      - _1057 |12.41Mb 2
+      - _1063 |71.88Mb
+      - _1057 |12.41Mb 3
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _402 |112.97Mb
-      - _409 |112.97Mb
-      - 🇺🇸 US_15759 |40.99Mb
-      - 🇺🇸 US_15360 |44.88Mb
-      - _1093 |72.73Mb
-      - _842 |67.98Mb
-      - _1073 |73.33Mb
-      - _1096 |72.73Mb
-      - _826 |71.50Mb
-      - _837 |71.50Mb
-      - _846 |71.50Mb
-      - _925 |57.68Mb
-      - _856 |24.82Mb
-      - _846 |71.50Mb 2
-      - _826 |71.50Mb 2
-      - _925 |57.68Mb 2
-      - _812 |73.83Mb
-      - _832 |67.98Mb
-      - _812 |73.83Mb 2
-      - _911 |63.89Mb
+      - _829 |50.36Mb
+      - _1096 |59.76Mb
+      - _1057 |12.41Mb
+      - _1062 |73.56Mb
+      - _1057 |12.41Mb 2
+      - _1063 |71.88Mb
+      - _1057 |12.41Mb 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -226,26 +122,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _402 |112.97Mb
-      - _409 |112.97Mb
-      - 🇺🇸 US_15759 |40.99Mb
-      - 🇺🇸 US_15360 |44.88Mb
-      - _1093 |72.73Mb
-      - _842 |67.98Mb
-      - _1073 |73.33Mb
-      - _1096 |72.73Mb
-      - _826 |71.50Mb
-      - _837 |71.50Mb
-      - _846 |71.50Mb
-      - _925 |57.68Mb
-      - _856 |24.82Mb
-      - _846 |71.50Mb 2
-      - _826 |71.50Mb 2
-      - _925 |57.68Mb 2
-      - _812 |73.83Mb
-      - _832 |67.98Mb
-      - _812 |73.83Mb 2
-      - _911 |63.89Mb
+      - _829 |50.36Mb
+      - _1096 |59.76Mb
+      - _1057 |12.41Mb
+      - _1062 |73.56Mb
+      - _1057 |12.41Mb 2
+      - _1063 |71.88Mb
+      - _1057 |12.41Mb 3
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
